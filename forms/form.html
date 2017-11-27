@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <input type="radio" id="english" name="subject" value="english">
+        <label for="english">English</label>
+        <input type="radio" id="spanish" name="subject" value="spanish">
+        <label for="spanish">Spanish</label><br><br>
+
+        <input type="checkbox" name="Vehicle_1" id="Vehicle_1" value="Bike">
+        <label for="Vehicle_1">Bajaj Pulsar 125</label>
+        <input type="checkbox" name="Vehicle_2" id="Vehicle_2" value="Car">
+        <label for="Vehicle_2">Tata Safari</label><br><br>
+
+        <select name="Year" id="Year">
+            <option value="1st">I Year</option>
+            <option value="2st">II Year</option>
+            <option value="3rd">III Year</option>
+            <option value="4th">IV Year</option>
+        </select><br><br>
+
+        <textarea name="message" id="message" style="height: 300px; width: 300px;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et pariatur maxime dolorum, corrupti modi praesentium natus nobis expedita delectus. Modi vel odio nihil natus id quo expedita ipsam dolorum laborum.
+        </textarea><br><br>
+
+        <button type="button">Normal Button</button><br><br>
+
+        <fieldset>
+            <legend>Mini Form</legend>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+        </fieldset><br><br>
+
+        <input list="browsers">
+            <datalist id="browsers">
+                <option value="Brave"></option>
+                <option value="Chrome"></option>
+                <option value="Egde"></option>
+                <option value="Firefox"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <br><br>
+        <label for="favcolor">Select your color:</label>
+        <input type="color" name="favcolor" id="favcolor"><br><br>
+
+        <label for="date">Calender</label>
+        <input type="datetime-local" name="date" id="date"><br><br>
+
+        <label for="myfile">Select a file :</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+        <label for="quantity">Quantity :</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="10"><br><br>
+
+        <label for="vol">Volume :</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+
+        <input type="submit" value="submit">
+
+        
+    </form>
+</body>
+</html>
